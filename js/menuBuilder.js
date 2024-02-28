@@ -9,4 +9,5 @@
 	createMenu1(daftarHalaman.formCalonPenerimaBantuan, target);
 	createMenu1(daftarHalaman.formHasilPenerimaBantuan, target);
 	createMenu1(daftarHalaman.formKritikDanSaran, target);
+	createMenu1(daftarHalaman.surveyDigital, target);
 })();
