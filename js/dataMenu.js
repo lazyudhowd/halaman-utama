@@ -9,7 +9,7 @@
 let daftarHalaman = {
 	adminKwitansiMasuk : {
 		id : "1",
-		url : "",
+		url : "https://script.google.com/macros/s/AKfycbziDBKQ_S7Xc4R3GbI06MdJHYHHbBUtD8Gu412vDfKWegXTP5o9S3LIeiAE5DBGwSRi/exec",
 		judul : "Halaman input data kwitansi masuk",
 		deskripsi : "Halaman ini hanya untuk admin tertentu. Tidak perlu membuka halaman ini jika anda bukan admin",
 		icon : {
@@ -18,7 +18,7 @@ let daftarHalaman = {
 	},
 	generatorKwitansiMasuk : {
 		id : "1",
-		url : "",
+		url : "https://lazyudhowd.github.io/kwitansi-masuk/index.html",
 		judul : "Halaman membuat kwitansi masuk",
 		deskripsi : "Halaman ini digunakan untuk membuat gambar kwitansi masuk lazismu",
 		icon : {
@@ -27,7 +27,7 @@ let daftarHalaman = {
 	},
 	kalkulatorUang : {
 		id : "2",
-		url : "",
+		url : "https://sites.google.com/view/lazismukotasingkawang/kalkulator-celengan",
 		judul : "Halaman untuk menghitung total uang",
 		deskripsi : "Halaman ini digunakan untuk menghitung total uang dari uang receh hingga uang kertas",
 		icon : {
@@ -36,7 +36,7 @@ let daftarHalaman = {
 	},
 	formCalonPenerimaBantuan : {
 		id : "2",
-		url : "",
+		url : "https://docs.google.com/forms/d/e/1FAIpQLSd_BM0wM41ATCRGfrEuwTOTvtxc_R4jQp6CyNOCmQ7IychVtg/viewform",
 		judul : "Halaman ini hanya untuk memasukkan calon yang akan di survey",
 		deskripsi : "Halaman ini untuk memasukkan informasi dasar tentang orang yang akan disurvey",
 		icon : {
@@ -45,11 +45,11 @@ let daftarHalaman = {
 	},
 	formHasilPenerimaBantuan : {
 		id : "2",
-		url : "",
+		url : "https://docs.google.com/forms/d/e/1FAIpQLSd_BM0wM41ATCRGfrEuwTOTvtxc_R4jQp6CyNOCmQ7IychVtg/viewform",
 		judul : "Halaman Hasil Survey Penerima Bantuan",
 		deskripsi : "Halaman (Khusus Pengurus) digunakan untuk memasukkan data hasil survey calon penerima bantuan",
 		icon : {
-			bootstrap : "bi bi-card-checklist"
+			bootstrap : "bi bi-file-earmark-arrow-up"
 		}
 	},
 	formKritikDanSaran : {
@@ -60,5 +60,23 @@ let daftarHalaman = {
 		icon : {
 			bootstrap : "bi bi-envelope"
 		}
-	}
+	},
+	adminKwitansiKeluar : {
+		id : "1",
+		url : "https://script.google.com/macros/s/AKfycbw6v_b6RW0CrlF1pyuEs2WC3To9v_edrdZAVRbvK71gHr8Z6CLKPcafc_QXgNTo9vg3/exec",
+		judul : "Halaman input data kwitansi keluar",
+		deskripsi : "Halaman ini hanya untuk admin tertentu. Tidak perlu membuka halaman ini jika anda bukan admin",
+		icon : {
+			bootstrap : "bi bi-cash"
+		}
+	},
+	surveyDigital : {
+		id : "1",
+		url : "https://lazyudhowd.github.io/survey/",
+		judul : "Lembar Survey Digital",
+		deskripsi : "Halaman ini digunakan untuk melakukan survey oleh petugas Lazismu Kota Singkawang",
+		icon : {
+			bootstrap : "bi bi-list-check"
+		}
+	},
 }
