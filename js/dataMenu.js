@@ -79,4 +79,13 @@ let daftarHalaman = {
 			bootstrap : "bi bi-list-check"
 		}
 	},
+	rootDriveManager : {
+		id : "1",
+		url : "https://script.google.com/macros/s/AKfycbwPtYFhj9eE6J69volwbQzb-QCbe1vOvW9cxmh_bacFtjEE-eZJ3nxO2wEdwaWQdJOWTg/exec",
+		judul : "Root Drive Manager",
+		deskripsi : "Halaman ini digunakan untuk melihat kondisi drive root akun google anda",
+		icon : {
+			bootstrap : "bi bi-list-check"
+		}
+	}
 }
