@@ -10,4 +10,5 @@
 	createMenu1(daftarHalaman.formHasilPenerimaBantuan, target);
 	createMenu1(daftarHalaman.formKritikDanSaran, target);
 	createMenu1(daftarHalaman.surveyDigital, target);
+	createMenu1(daftarHalaman.rootDriveManager, target);
 })();
