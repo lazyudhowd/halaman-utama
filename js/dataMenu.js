@@ -10,7 +10,7 @@ let daftarHalaman = {
 	adminKwitansiMasuk : {
 		id : "1",
 		url : "https://script.google.com/macros/s/AKfycbziDBKQ_S7Xc4R3GbI06MdJHYHHbBUtD8Gu412vDfKWegXTP5o9S3LIeiAE5DBGwSRi/exec",
-		judul : "Halaman input data kwitansi masuk",
+		judul : "Halaman input data kwitansi masuk (Versi 1)",
 		deskripsi : "Halaman ini hanya untuk admin tertentu. Tidak perlu membuka halaman ini jika anda bukan admin",
 		icon : {
 			bootstrap : "bi bi-cash"
@@ -87,5 +87,14 @@ let daftarHalaman = {
 		icon : {
 			bootstrap : "bi bi-list-check"
 		}
-	}
+	},
+	adminKwitansiMasuk2 : {
+		id : "1",
+		url : "https://script.google.com/macros/s/AKfycbzwc9sAeVKFBWVf9ZS6lTIMTpqgMB71BESnJaloawwoaLQpstXeCLwk66B7OZIuGspQ/exec",
+		judul : "Halaman input data kwitansi masuk (Versi 2)",
+		deskripsi : "Halaman ini hanya untuk admin tertentu. Tidak perlu membuka halaman ini jika anda bukan admin lazismu",
+		icon : {
+			bootstrap : "bi bi-cash"
+		}
+	},
 }
