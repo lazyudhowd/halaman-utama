@@ -4,6 +4,7 @@
 	let target = "targetMenu"
 
 	createMenu1(daftarHalaman.adminKwitansiMasuk, target);
+	createMenu1(daftarHalaman.adminKwitansiMasuk2, target);
 	createMenu1(daftarHalaman.generatorKwitansiMasuk, target);
 	createMenu1(daftarHalaman.kalkulatorUang, target);
 	createMenu1(daftarHalaman.formCalonPenerimaBantuan, target);
