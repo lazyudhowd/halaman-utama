@@ -1,7 +1,11 @@
 select = document.getElementById("selectMilik");
 
 select.addEventListener("change", function(){
-	target = document.getElementById("targetMenu");
+	console.log(this.value);
+
+	target = document.getElementById("myoMenuGrup");
+
 	target.innerHTML = "";
-	generateMenu(dataUtama.table.rows, "targetMenu", this.value)
+
+	generateMenu2(dataUtama.table.rows, "myoMenuGrup", this.value)
 });
